@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Post-Its (Just for Fun) - Dart Sticky Notes Web Application</title>
+    <meta name="description" content="This is just a simple Dart Sticky Post Application to showcase Drag and Drop and HTML5 Local Storage. No copyright claim intended for the name.">
+    <link rel="stylesheet" href="sticky_notes.css">
+    <link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div class="col2">
+      <div id="col2-1" class="cols">
+        <h1 id="logo">Post-Its</h1>
+      </div>
+      <div id="col2-2" class="cols">
+        <div id="form_container">
+          <input type="text" id="title" class="textInput" name="title" placeholder="Enter Sticky Title" />
+          <input type="text" id="description" class="textInput" name="description" placeholder="Enter Sticky Description" size="60" />
+          <button id="addPostIt">Add Post It</button>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+    <div id="stickies_container">
+      <ul id="sticky_board">
+      </ul>
+    </div>
+    <script type="application/dart" src="sticky_notes.dart"></script>
+    <script src="packages/browser/dart.js"></script>
+  </body>
+</html>

@@ -1,0 +1,98 @@
+html{
+  height: 100%;
+}
+
+*{ 
+  font-family: 'Indie Flower', cursive;
+}
+
+body {
+  background: url(images/board.jpg);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.2em;
+  min-height: 100%;
+  width:100%;
+  margin:0px;
+  padding:0px;
+}
+
+h1, p {
+  color: #333;
+}
+
+button{
+  cursor:pointer;  
+}
+
+#logo{
+  background: url(images/sticky-title.png) no-repeat;
+  width:130px;
+  height:66px;
+  padding-top:50px;
+  padding-left:20px;
+  margin-left:10px;
+}
+
+.col2 {
+  display:table;
+  width:100%;  
+  
+}
+
+.col2 #col2-1{
+  float:left;
+  width:30%; 
+}
+
+.col2 #col2-2{
+  float:right;
+  text-align:right;
+  width:70%; 
+}
+
+.col2 #col2-2 button{
+  padding:10px;
+  margin-right:10px;
+  background:#DFDFDF;
+  border:#333 solid thin;
+  font-size:18px;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.stickyNotes{
+  background:url(images/sticky-note.png);
+  width:200px;
+  height:235px;
+  float:left;
+  margin:10px;
+  list-style:none;
+  padding:80px 50px 0px;
+  cursor:move;
+}
+
+.textInput{
+  font-size:18px;
+}
+
+#form_container{
+  padding:10px;
+  background:#FFF;
+  border:#DFDFDF solid thin;
+  border-radius:10px;  
+  float:right;
+  margin:40px 5px 0px 0px;
+}
+
+.stickyNotes h2{
+  font-size:24px;
+}
+
+.stickyNotes p{
+  font-size:20px;
+  height: 130px;
+  max-height:130px;
+  overflow:auto;
+}
